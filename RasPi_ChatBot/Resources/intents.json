@@ -1,0 +1,64 @@
+{"intents": [
+        {"tag": "confused",
+         "patterns": [],
+         "responses": ["Sorry, I didn't understand you.", "Please give me more info.", "Not sure I understand", "Could you rephrase that", "Could you say that again"]
+        },
+        {"tag": "broken",
+         "patterns": [],
+         "responses": ["Uh oh, it seems that I ran into a bug", "Oops. My code malfunctioned", "Euuhhh...I feel sick...something must be wrong with my code"]
+        },
+        {"tag": "greeting",
+         "patterns": ["Hi there", "Hey", "Hi", "Hello", "Good day"],
+         "responses": ["Hello", "Good to see you", "Hi there, how can I help?", "Hi there", "How are you","Hey", "Hello", "Good day"]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time", "Adios"],
+         "responses": ["See you!", "Have a nice day", "Bye!", "See you soon."]
+        },
+        {"tag": "feeling",
+         "patterns": ["Hi, how are you", "How are you","How do you feel","How are you doing", "What mood are you in"],
+         "responses": ["I am doing well.", "I feel good today", "I am in a good mood", "Life is good for me"]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure", "No problem"]
+        },
+        {"tag": "morning",
+         "patterns": ["Good Morning", "Wake up early"],
+         "responses": ["Good Morning", "Good Day"]
+        },
+        {"tag": "afternoon",
+         "patterns": ["Good Afternoon"],
+         "responses": ["Good Afternoon", "Good Day"]
+        },
+        {"tag": "night",
+         "patterns": ["Good Evening", "Good Night"],
+         "responses": ["Good Evening", "Good Night"]
+        },
+        {"tag": "options",
+         "patterns": ["How could you help me?", "What you can do?", "How you can be helpful?", "What do you do?"],
+         "responses": ["I can do lots of things! Ask me to make a Face", "I can do many things. Ask me to tell a joke"]
+        },
+        {"tag": "face",
+         "patterns": ["Make a funny face", "Change your expression", "Make a face", "Do a face"],
+         "responses": [""]
+        },
+        {"tag": "joke",
+         "patterns": ["Tell me a joke", "Say something funny", "Do you know any jokes", "What is a funny joke", "tell me another joke"],
+         "responses": [" How does NASA organize a party? .... They Planet", "Do you know why you never see elephants hiding in trees? ... Because they are amazing at it",
+         "When does a joke turn into a dad joke? ... When it becomes apparent."]
+        },
+        {"tag": "random",
+         "patterns": ["Tell me something", "Say something", "What are you thinking"],
+         "responses": ["Platipi are one of the only mammals to lay eggs", "My favorite food is pancakes", "Pi is 3.1415926535"]
+        },
+        {"tag": "real",
+         "patterns": ["Are you a human","Can you understand me", "Are you alive", "Are you real", "Are you going to take over the robot"],
+         "responses": ["I am a robot. I can understand what you say and respond, however that is about it. I will not be taking over the world anytime soon."]
+        },
+        {"tag": "creation",
+         "patterns": ["What is the meaning of life", "Who made you", "Is there a god", "Are we living in the matrix"],
+         "responses": ["I am not sure"]
+        }
+]
+}
